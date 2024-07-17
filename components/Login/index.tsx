@@ -26,7 +26,7 @@ const Login = () => {
                 const { accessToken } = res.data.logIn
                 
                 localStorage.setItem("token", accessToken);
-                router.push('/')
+                router.push('/user')
          }
             
         } catch (error) {

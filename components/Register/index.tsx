@@ -31,7 +31,7 @@ const Register = () => {
             Password: "",
             Email: "",
           });
-        router.push("/");
+        router.push("/Login");
       } 
 
         // alert('An Error occuured')

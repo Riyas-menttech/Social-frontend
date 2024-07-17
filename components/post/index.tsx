@@ -24,7 +24,7 @@ const Post = () => {
         <div className="w-full max-w-4xl bg-white rounded-lg shadow-md">
           <table className="min-w-full table-auto">
             <thead>
-              <tr className="bg-gray-200">
+              <tr className="bg-gray-500">
                 <th className="px-4 py-2">PostId</th>
                 <th className="px-4 py-2">User ID</th>
                 <th className="px-4 py-2">Description</th>
