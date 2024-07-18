@@ -13,7 +13,7 @@ const User = () => {
     if (loading) {
         return <h1>Loading...</h1>
     }
-    const users: any = data.findAllUsers;
+    const users: any = data?.findAllUsers;
     
   return (
     <div>
@@ -29,7 +29,7 @@ const User = () => {
               </tr>
             </thead>
             <tbody>
-              {users.map((user:any, index:number) => (
+              {users?.map((user:any, index:number) => (
                 <tr key={user.id} className="bg-white border-b text-black">
                   <td className="px-4 py-2">{index + 1}</td>
                   <td className="px-4 py-2">{user.id}</td>

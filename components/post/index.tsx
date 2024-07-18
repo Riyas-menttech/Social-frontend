@@ -27,9 +27,9 @@ const Post = () => {
               <tr className="bg-gray-500">
                 <th className="px-4 py-2">PostId</th>
                 <th className="px-4 py-2">User ID</th>
+                <th className="px-4 py-2">Title</th>
                 <th className="px-4 py-2">Description</th>
-                <th className="px-4 py-2">Video</th>
-                <th className="px-4 py-2">Image</th>
+                <th className="px-4 py-2">Content</th>
               </tr>
             </thead>
             <tbody>

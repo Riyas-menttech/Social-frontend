@@ -76,7 +76,7 @@ const page = () => {
               className="block text-gray-700 font-bold mb-2"
               htmlFor="description"
             >
-              Description
+              Title
             </label>
             <input
               type="text"
@@ -93,7 +93,7 @@ const page = () => {
               className="block text-gray-700 font-bold mb-2"
               htmlFor="video"
             >
-              Video
+              Description
             </label>
             <input
               type="text"
@@ -110,7 +110,7 @@ const page = () => {
               className="block text-gray-700 font-bold mb-2"
               htmlFor="image"
             >
-              Image
+              Content
             </label>
             <input
               type="text"

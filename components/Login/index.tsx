@@ -82,7 +82,7 @@ const Login = () => {
             Submit
           </button>
         </div>
-        <Link href="/Register" className="'">
+        <Link href="/register" className="'">
           {" "}
           <p className="mt-4">
             <a href="#" className="text-blue-500 hover:underline ">

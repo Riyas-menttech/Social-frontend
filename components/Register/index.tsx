@@ -31,7 +31,7 @@ const Register = () => {
             Password: "",
             Email: "",
           });
-        router.push("/Login");
+        router.push("/login");
       } 
 
         // alert('An Error occuured')
@@ -108,7 +108,7 @@ const Register = () => {
             </button>
           </div>
         {/* </form> */}
-        <Link href="/Login">
+        <Link href="/login">
           {" "}
           <p className="mt-4">
             <a href="#" className="text-blue-500 hover:underline">
